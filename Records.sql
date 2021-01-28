@@ -43,25 +43,25 @@ INSERT INTO categories (`category_id`, `category_name`)
         (5, 'office');
         
 INSERT INTO products (`product_id`, `product_name`, `brand_id`, `category_id`, `model_year`, `list_price`) 
-VALUES (1, 'gold', 1, 1, '1990', '20'),
-(2, 'silver', 2, 2, '1996', '15'),
-(3, 'copper', 3, 3, '1990', '10'),
-(4, 'platinum', 4, 4, '1892', '30'),
-(5, 'diamond', 5, 5, '1999', '45');
+VALUES (1, 'gold', 1, 1, 1990, 20),
+(2, 'silver', 2, 2, 1996, 15),
+(3, 'copper', 3, 3, 1990, 10),
+(4, 'platinum', 4, 4, 1892, 30),
+(5, 'diamond', 5, 5, 1999, 45);
 
 
 INSERT INTO stocks (`store_id`, `product_id`, `quantity`)
- VALUES (1, 1, '20'),
-(2, 2, '30'),
-(3, 3, '40'),
-(4, 4, '50'),
-(5, 5, '60');
+ VALUES (1, 1, 20),
+(2, 2, 30),
+(3, 3, 40),
+(4, 4, 50),
+(5, 5, 60);
 
 
 INSERT INTO order_items (`order_id`, `item_id`, `product_id`, `quantity`, `list_price`, `discount`)
-VALUES (1, 1, 1, '20', '65', '17'),
-(2, 2, 2, '45', '52', '12'),
-(3, 3, 3, '98', '74', '23'),
-(4, 4, 4, '42', '26', '2'),
-(5, 5, 5, '100', '54', '20');
+VALUES (1, 1, 1, 20, 65, 17),
+(2, 2, 2, 45, 52, 12),
+(3, 3, 3, 98, 74, 23),
+(4, 4, 4, 42, 26, 2),
+(5, 5, 5, 100, 54, 20);
 
